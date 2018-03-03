@@ -1,8 +1,6 @@
 # ForkScraper
 
-Find unique files in all Github repository forks
-
-An example of using Github's API to get all unique files from [b]multiple[/b] repository forks by comparing SHA checksum of files. A script written in Linux Bash, uses curl and jq.
+An example of using Github's API to get all unique files from **multiple** repository forks by comparing SHA checksum of files. A script written in Linux Bash, uses curl and jq.
 
 # Search query explanation
 - authorized connections have a limit of 5,000 queries per hour
