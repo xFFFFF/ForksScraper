@@ -6,7 +6,7 @@ dbfin=unique-repo-files-$epoch.json
 auth='--user user:pass'
 
 function lurc () {
-	curl $auth $1 $2 
+	curl -L $auth $1 $2 
 	sleep 1.4
 }
 
